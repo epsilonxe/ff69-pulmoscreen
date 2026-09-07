@@ -1,6 +1,7 @@
-# FF69 screening web app — frontend
+# PulmoScreen — frontend
 
-The Next.js single-page frontend of the lung-cancer screening prototype. It
+The Next.js single-page frontend of PulmoScreen, the FF69 lung-cancer
+screening prototype. It
 renders the typed input form and the result panel side by side, and calls the
 FastAPI backend (`webapp/api/`) for predictions.
 

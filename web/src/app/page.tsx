@@ -62,9 +62,10 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
       <header className="mb-6">
-        <h1 className="text-xl font-bold text-slate-800">
+        <h1 className="text-xl font-bold text-slate-800">PulmoScreen</h1>
+        <p className="mt-0.5 text-sm font-medium text-slate-600">
           ระบบคัดกรองความเสี่ยงมะเร็งปอด
-        </h1>
+        </p>
         <p className="mt-0.5 text-sm text-slate-500">
           ต้นแบบซอฟต์แวร์ด้วยแบบจำลองเครื่องจักรเรียนรู้สูงสุด (โครงการ FF69)
         </p>

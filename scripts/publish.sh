@@ -5,7 +5,7 @@
 #   bash webapp/scripts/publish.sh [remote]
 #
 # Default remote is "webapp-public" (add it once with:
-#   git remote add webapp-public https://github.com/epsilonxe/ff69-lung-cancer-webapp.git )
+#   git remote add webapp-public https://github.com/epsilonxe/ff69-pulmoscreen.git )
 set -euo pipefail
 
 REMOTE="${1:-webapp-public}"

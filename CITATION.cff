@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: Lung Cancer Risk Screening Web App (FF69)
+title: PulmoScreen — Lung Cancer Risk Screening Web App (FF69)
 message: >-
   If you use this software, please cite the FF69 project and the
   method paper below.
@@ -9,7 +9,7 @@ authors:
     family-names: Promkam
     affiliation: Rajamangala University of Technology Thanyaburi (RMUTT)
 license: MIT
-repository-code: https://github.com/epsilonxe/ff69-lung-cancer-webapp
+repository-code: https://github.com/epsilonxe/ff69-pulmoscreen
 keywords:
   - extreme learning machine
   - variational inequality

@@ -1,4 +1,4 @@
-"""FastAPI service for the FF69 lung-cancer risk model."""
+"""FastAPI service for PulmoScreen (the FF69 lung-cancer risk model)."""
 from __future__ import annotations
 
 import os
@@ -11,7 +11,7 @@ from pydantic import BaseModel, Field
 from .predictor import Predictor
 from .schema import FEATURE_SCHEMA, FIELD_TO_KEY, RISK_BANDS
 
-app = FastAPI(title="Lung Cancer Risk API", version="0.1.0")
+app = FastAPI(title="PulmoScreen API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,

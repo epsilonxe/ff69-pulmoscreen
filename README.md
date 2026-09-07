@@ -1,4 +1,6 @@
-# Lung Cancer Risk Screening Web App
+# PulmoScreen
+
+*Lung cancer risk screening — an FF69 research prototype.*
 
 A single-page web application that estimates lung-cancer risk from 15 patient
 attributes, using an **Extreme Learning Machine (ELM)** whose output weights

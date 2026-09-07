@@ -8,9 +8,9 @@ const notoThai = Noto_Sans_Thai({
 });
 
 export const metadata: Metadata = {
-  title: "ระบบคัดกรองความเสี่ยงมะเร็งปอด",
+  title: "PulmoScreen — ระบบคัดกรองความเสี่ยงมะเร็งปอด",
   description:
-    "ต้นแบบซอฟต์แวร์คัดกรองความเสี่ยงมะเร็งปอดด้วยแบบจำลองเครื่องจักรเรียนรู้สูงสุด (FF69)",
+    "PulmoScreen: ต้นแบบซอฟต์แวร์คัดกรองความเสี่ยงมะเร็งปอดด้วยแบบจำลองเครื่องจักรเรียนรู้สูงสุด (FF69)",
 };
 
 export default function RootLayout({
