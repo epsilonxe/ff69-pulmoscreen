@@ -65,9 +65,9 @@ Configuration is via environment variables (see `api/.env.example`):
 { "label": "YES", "probability": 0.927, "risk": "high", "threshold": 0.5 }
 ```
 
-`label` (`"YES"` / `"NO"`) is rendered by the frontend as the binary verdict
-`1` / `0`. `risk` (`low` / `moderate` / `high`) is a secondary band derived
-from `probability`.
+`label` (`"YES"` / `"NO"`) is rendered by the frontend as the verdict
+`พบความเสี่ยง` / `ไม่พบความเสี่ยง`. `risk` (`low` / `moderate` / `high`) is a
+secondary band derived from `probability`.
 
 **Frontend** (needs Node 20+):
 

@@ -212,7 +212,7 @@ export default function Home() {
                   positive ? "text-rose-600" : "text-emerald-600"
                 }`}
               >
-                {positive ? "พบความเสี่ยง (1)" : "ไม่พบความเสี่ยง (0)"}
+                {positive ? "พบความเสี่ยง" : "ไม่พบความเสี่ยง"}
               </p>
               <p className="mt-0.5 text-xs text-slate-400">
                 การทำนายมะเร็งปอดแบบทวิภาค

@@ -34,7 +34,7 @@ npm run build && npm start        # production server on :3000
 ## Notes
 
 - `next.config.ts` sets `devIndicators: false` and `agentRules: false`.
-- The result shows the binary verdict (`พบความเสี่ยง (1)` / `ไม่พบความเสี่ยง (0)`),
+- The result shows the binary verdict (`พบความเสี่ยง` / `ไม่พบความเสี่ยง`),
   the model probability as a percentage bar, and a secondary risk band.
 
 See `../README.md` for the backend, the model checkpoint, and the report

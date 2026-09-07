@@ -46,7 +46,9 @@ const browser = await puppeteer.launch({
 try {
   const page = await browser.newPage();
   await page.setViewport({ width: 1180, height: 800, deviceScaleFactor: 2 });
-  await page.goto(WEB_URL, { waitUntil: "networkidle0" });
+  await page.goto(WEB_URL, { waitUntil: "domcontentloaded" });
+  // wait for React to hydrate before interacting
+  await page.waitForSelector('button[role="switch"]');
   await sleep(800);
 
   // fill the form (age + a set of symptoms)
@@ -65,7 +67,7 @@ try {
 
   // wait for the debounced auto-prediction to render the verdict
   await page.waitForFunction(
-    () => /\((0|1)\)/.test(document.querySelector("aside")?.textContent ?? ""),
+    () => /พบความเสี่ยง/.test(document.querySelector("aside")?.textContent ?? ""),
     { timeout: 8000 },
   );
   await sleep(500);
